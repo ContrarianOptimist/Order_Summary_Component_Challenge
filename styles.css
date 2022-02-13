@@ -1,0 +1,136 @@
+html, body {
+  background-image: url(../images/mymodifiedversion-background-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.hero-illustration {
+  border-radius: 25px 25px 0 0;
+  width: 400px;
+}
+
+.larger-rectangle {
+  position: relative;
+  top: 10em;
+  margin: 0 auto;
+  width: 400px;
+  border-radius: 25px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h3 {
+  font-weight: 700;
+  display: table;
+  margin: auto;
+  font-size: 16px;
+}
+
+p {
+  width: 75%;
+  font-size: 16px;
+  margin: auto;
+  font-weight: 500;
+  color: #A0A6B4;
+}
+
+.flex-container {
+  margin: 20px 40px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.item-1 {
+  margin: 20px;
+}
+
+.annual-cost {
+  margin: 0;
+}
+
+.item-3 {
+  margin-left: 50px;
+}
+
+.btn {
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: 'Red Hat Display', sans-serif;
+  color: #382AE1;
+  font-size: 14px;
+  font-weight: bold;
+  background: hsl(225, 100%, 98%);
+  padding: 15px 20px;
+  margin: 0 0 0 2.5rem;
+  text-decoration: underline;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+.btn2 {
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: 'Red Hat Display', sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  background: #382AE1;
+  display: inline-block;
+  padding: 15px 80px;
+  margin: 0.5rem 0;
+  text-decoration: none;
+}
+
+.btn2:hover {
+  background: #7770db;
+  text-decoration: none;
+}
+
+.btn3 {
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: 'Red Hat Display', sans-serif;
+  color: #A0A6B4;
+  font-size: 16px;
+  font-weight: 700;
+  background: #ffffff;
+  display: inline-block;
+  padding: 15px 80px;
+  margin: 0.5rem 0;
+  text-decoration: none;
+}
+
+.btn3:hover {
+  color: #000000;
+}
+
+.attribution {
+  position: relative;
+  top: 12rem;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
